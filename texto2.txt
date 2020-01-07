@@ -1,30 +1,30 @@
-Número de RUC: 20250406941 - AGROVET MARKET S.A
+Número de RUC: 20422561537 - IMPULSO INFORMATICO S.A.
 Tipo Contribuyente: SOCIEDAD ANONIMA
 Nombre Comercial: -
-Fecha de Inscripción: 06/05/1994Fecha de Inicio de Actividades:01/05/1994
+Fecha de Inscripción: 23/02/1999Fecha de Inicio de Actividades:01/03/1999
 Estado del Contribuyente: ACTIVO
 Condición del Contribuyente:HABIDO 
-Dirección del Domicilio Fiscal:AV. CANADA NRO. 3792 INT. 3798 URB. VILLA JARDIN LIMA - LIMA - SAN LUIS
-Sistema de Emisión de Comprobante:MANUALActividad de Comercio Exterior:IMPORTADOR/EXPORTADOR
+Dirección del Domicilio Fiscal:AV. AREQUIPA NRO. 2923 (FRENTE A ESSALUD) LIMA - LIMA - SAN ISIDRO
+Sistema de Emisión de Comprobante:MANUALActividad de Comercio Exterior:IMPORTADOR
 Sistema de Contabilidad:COMPUTARIZADO
-Actividad(es) Económica(s): 4799 - OTRAS ACTIVIDADES DE VENTA AL POR MENOR NO REALIZADAS EN COMERCIOS, PUESTOS DE VENTA O MERCADOS 
-Comprobantes de Pago c/aut. de impresión (F. 806 u 816):  FACTURA BOLETA DE VENTA NOTA DE CREDITO NOTA DE DEBITO GUIA DE REMISION - REMITENTE COMPROBANTE DE RETENCION 
-Sistema de Emision Electronica:  DESDE LOS SISTEMAS DEL CONTRIBUYENTE. AUTORIZ DESDE 22/06/2016 
-Emisor electrónico desde: 22/06/2016
-Comprobantes Electrónicos: FACTURA (desde 22/06/2016),BOLETA (desde 22/06/2016)
-Afiliado al PLE desde: 01/01/2013 
-Padrones : Incorporado al Régimen de Agentes de Retención de IGV (R.S.395-2014) a partir del 01/02/2015 
-CONSULTA RUC: 20250406941 - AGROVET MARKET S.A
-Número de RUC: 20250406941 - AGROVET MARKET S.A
+Actividad(es) Económica(s): 4690 - VENTA AL POR MAYOR NO ESPECIALIZADA 
+Comprobantes de Pago c/aut. de impresión (F. 806 u 816):  FACTURA BOLETA DE VENTA NOTA DE CREDITO NOTA DE DEBITO GUIA DE REMISION - REMITENTE 
+Sistema de Emision Electronica:  FACTURA PORTAL DESDE 31/10/2018 DESDE LOS SISTEMAS DEL CONTRIBUYENTE. AUTORIZ DESDE 26/02/2019 SEE-FACTURADOR . AUTORIZ DESDE 07/12/2016 
+Emisor electrónico desde: 07/12/2016
+Comprobantes Electrónicos: FACTURA (desde 07/12/2016),BOLETA (desde 26/02/2019)
+Afiliado al PLE desde: 01/01/2014 
+Padrones : Incorporado al Régimen de Buenos Contribuyentes (Resolución N° 0110050002937) a partir del 01/05/2019 
+CONSULTA RUC: 20422561537 - IMPULSO INFORMATICO S.A.
+Número de RUC: 20422561537 - IMPULSO INFORMATICO S.A.
 Tipo Contribuyente: SOCIEDAD ANONIMA
 Nombre Comercial: -
-Fecha de Inscripción: 06/05/1994Fecha Inicio de Actividades:01/05/1994
+Fecha de Inscripción: 23/02/1999Fecha Inicio de Actividades:01/03/1999
 Estado del Contribuyente: ACTIVO
 Condición del Contribuyente:HABIDO 
-Dirección del Domicilio Fiscal:AV. CANADA NRO. 3792 INT. 3798 URB. VILLA JARDIN LIMA - LIMA - SAN LUIS
-Sistema de Emisión de Comprobante:MANUALActividad de Comercio Exterior:IMPORTADOR/EXPORTADOR
+Dirección del Domicilio Fiscal:AV. AREQUIPA NRO. 2923 (FRENTE A ESSALUD) LIMA - LIMA - SAN ISIDRO
+Sistema de Emisión de Comprobante:MANUALActividad de Comercio Exterior:IMPORTADOR
 Sistema de Contabilidad:COMPUTARIZADO
-Actividad(es) Económica(s):Principal - 4799 - OTRAS ACTIVIDADES DE VENTA AL POR MENOR NO REALIZADAS EN COMERCIOS, PUESTOS DE VENTA O MERCADOS
+Actividad(es) Económica(s):Principal - 4690 - VENTA AL POR MAYOR NO ESPECIALIZADA
 
 Comprobantes de Pago c/aut. de impresión (F. 806 u 816): 
 FACTURA 
@@ -32,11 +32,12 @@ BOLETA DE VENTA
 NOTA DE CREDITO 
 NOTA DE DEBITO 
 GUIA DE REMISION - REMITENTE 
-COMPROBANTE DE RETENCION 
 Sistema de Emisión Electrónica: 
-DESDE LOS SISTEMAS DEL CONTRIBUYENTE. AUTORIZ DESDE 22/06/2016 
-Afiliado al PLE desde: 01/01/2013 
-Padrones :Incorporado al Régimen de Agentes de Retención de IGV (R.S.395-2014) a partir del 01/02/2015
+FACTURA PORTAL DESDE 31/10/2018 
+DESDE LOS SISTEMAS DEL CONTRIBUYENTE. AUTORIZ DESDE 26/02/2019 
+SEE-FACTURADOR . AUTORIZ DESDE 07/12/2016 
+Afiliado al PLE desde: 01/01/2014 
+Padrones :Incorporado al Régimen de Buenos Contribuyentes (Resolución N° 0110050002937) a partir del 01/05/2019
 
 
 
@@ -53,5 +54,5 @@ Por favor espere un momento...
 
 
 
-Copyright © SUNAT 1997 - 2019
+Copyright © SUNAT 1997 - 2020
  

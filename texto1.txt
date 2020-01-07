@@ -2,7 +2,7 @@
 <TBODY>
 <TR>
 <TD class=bgn width="18%">Número de RUC: </TD>
-<TD class=bg colSpan=3>20250406941 - AGROVET MARKET S.A</TD></TR>
+<TD class=bg colSpan=3>20422561537 - IMPULSO INFORMATICO S.A.</TD></TR>
 <TR>
 <TD class=bgn>Tipo Contribuyente: </TD>
 <TD class=bg colSpan=3>SOCIEDAD ANONIMA</TD></TR>
@@ -11,9 +11,9 @@
 <TD class=bg>-</TD></TR>
 <TR>
 <TD class=bgn>Fecha de Inscripción: </TD>
-<TD class=bg>06/05/1994</TD>
+<TD class=bg>23/02/1999</TD>
 <TD class=bgn width="27%">Fecha de Inicio de Actividades:</TD>
-<TD class=bg>01/05/1994</TD></TR>
+<TD class=bg>01/03/1999</TD></TR>
 <TR>
 <TD class=bgn>Estado del Contribuyente: </TD>
 <TD class=bg>ACTIVO</TD>
@@ -23,46 +23,46 @@
 <TD class=bg>HABIDO </TD></TR>
 <TR>
 <TD class=bgn>Dirección del Domicilio Fiscal:</TD>
-<TD class=bg colSpan=3>AV. CANADA NRO. 3792 INT. 3798 URB. VILLA JARDIN LIMA - LIMA - SAN LUIS</TD></TR>
+<TD class=bg colSpan=3>AV. AREQUIPA NRO. 2923 (FRENTE A ESSALUD) LIMA - LIMA - SAN ISIDRO</TD></TR>
 <TR>
 <TD class=bgn>Sistema de Emisión de Comprobante:</TD>
 <TD class=bg>MANUAL</TD>
 <TD class=bgn>Actividad de Comercio Exterior:</TD>
-<TD class=bg>IMPORTADOR/EXPORTADOR</TD></TR>
+<TD class=bg>IMPORTADOR</TD></TR>
 <TR>
 <TD class=bgn>Sistema de Contabilidad:</TD>
 <TD class=bg colSpan=3>COMPUTARIZADO</TD></TR>
 <TR><!--I#P_SNADE003-1#20141109#CFS--><!--<td class="bgn" colspan=1>Actividad(es) Econ&oacute;mica(s):</td>-->
 <TD class=bgn>Actividad(es) Económica(s):</TD><!--F#P_SNADE003-1#20141109#CFS-->
-<TD class=bg colSpan=3><!--I#P_SNADE003-1#20141109#CFS--><!-- <select name="select" >--><!--   --><!--   <option value="00" > Principal        - CIIU 52593 - OTROS TIPOS DE VENTA POR MENOR. </option>--><!--   --><!--   --><!--   --><!--   --><!-- </select>	--><SELECT name=select> <OPTION selected value=00>4799 - OTRAS ACTIVIDADES DE VENTA AL POR MENOR NO REALIZADAS EN COMERCIOS, PUESTOS DE VENTA O MERCADOS</OPTION></SELECT> <!--F#P_SNADE003-1#20141109#CFS--></TD></TR>
+<TD class=bg colSpan=3><!--I#P_SNADE003-1#20141109#CFS--><!-- <select name="select" >--><!--   --><!--   <option value="00" > Principal        - CIIU 51906 - VTA. MAY. DE OTROS PRODUCTOS. </option>--><!--   --><!--   --><!--   --><!--   --><!-- </select>	--><SELECT name=select> <OPTION selected value=00>4690 - VENTA AL POR MAYOR NO ESPECIALIZADA</OPTION></SELECT> <!--F#P_SNADE003-1#20141109#CFS--></TD></TR>
 <TR>
 <TD class=bgn>Comprobantes de Pago c/aut. de impresión (F. 806 u 816): </TD>
-<TD class=bg colSpan=3><SELECT name=select> <OPTION selected value=00>FACTURA</OPTION> <OPTION value=00>BOLETA DE VENTA</OPTION> <OPTION value=00>NOTA DE CREDITO</OPTION> <OPTION value=00>NOTA DE DEBITO</OPTION> <OPTION value=00>GUIA DE REMISION - REMITENTE</OPTION> <OPTION value=00>COMPROBANTE DE RETENCION</OPTION></SELECT> </TD></TR><!--  PCR Inicio Cambios  -->
+<TD class=bg colSpan=3><SELECT name=select> <OPTION selected value=00>FACTURA</OPTION> <OPTION value=00>BOLETA DE VENTA</OPTION> <OPTION value=00>NOTA DE CREDITO</OPTION> <OPTION value=00>NOTA DE DEBITO</OPTION> <OPTION value=00>GUIA DE REMISION - REMITENTE</OPTION></SELECT> </TD></TR><!--  PCR Inicio Cambios  -->
 <TR>
 <TD class=bgn>Sistema de Emision Electronica: </TD>
-<TD class=bg colSpan=3><SELECT name=select> <OPTION selected value=00>DESDE LOS SISTEMAS DEL CONTRIBUYENTE. AUTORIZ DESDE 22/06/2016</OPTION></SELECT> </TD></TR><!--  MLR Inicio Cambios P_DSNT_CPLE_0009_5_FE-MASIFICACION-->
+<TD class=bg colSpan=3><SELECT name=select> <OPTION selected value=00>FACTURA PORTAL DESDE 31/10/2018</OPTION> <OPTION value=00>DESDE LOS SISTEMAS DEL CONTRIBUYENTE. AUTORIZ DESDE 26/02/2019</OPTION> <OPTION value=00>SEE-FACTURADOR . AUTORIZ DESDE 07/12/2016</OPTION></SELECT> </TD></TR><!--  MLR Inicio Cambios P_DSNT_CPLE_0009_5_FE-MASIFICACION-->
 <TR>
 <TD class=bgn>Emisor electrónico desde: </TD>
-<TD class=bg colSpan=3>22/06/2016</TD></TR>
+<TD class=bg colSpan=3>07/12/2016</TD></TR>
 <TR>
 <TD class=bgn>Comprobantes Electrónicos: </TD>
-<TD class=bg colSpan=3>FACTURA (desde 22/06/2016),BOLETA (desde 22/06/2016)</TD></TR><!--  MLR Fin Cambios P_DSNT_CPLE_0009_5_FE-MASIFICACION-->
+<TD class=bg colSpan=3>FACTURA (desde 07/12/2016),BOLETA (desde 26/02/2019)</TD></TR><!--  MLR Fin Cambios P_DSNT_CPLE_0009_5_FE-MASIFICACION-->
 <TR>
 <TD class=bgn>Afiliado al PLE desde: </TD>
-<TD class=bg colSpan=3>01/01/2013 </TD></TR><!--  PCR Fin Cambios     -->
+<TD class=bg colSpan=3>01/01/2014 </TD></TR><!--  PCR Fin Cambios     -->
 <TR>
 <TD class=bgn>Padrones :</TD>
-<TD class=bg colSpan=3><SELECT name=select> <OPTION selected value=00>Incorporado al Régimen de Agentes de Retención de IGV (R.S.395-2014) a partir del 01/02/2015</OPTION></SELECT> 
+<TD class=bg colSpan=3><SELECT name=select> <OPTION selected value=00>Incorporado al Régimen de Buenos Contribuyentes (Resolución N° 0110050002937) a partir del 01/05/2019</OPTION></SELECT> 
 <DIV id=print style="DISPLAY: none">
 <TABLE class=form-table cellSpacing=2 cellPadding=3 width="100%">
 <TBODY>
 <TR>
-<TD class=t1><FONT size=2>CONSULTA RUC: 20250406941 - AGROVET MARKET S.A</FONT></TD></TR></TBODY></TABLE>
+<TD class=t1><FONT size=2>CONSULTA RUC: 20422561537 - IMPULSO INFORMATICO S.A.</FONT></TD></TR></TBODY></TABLE>
 <TABLE class=form-table cellSpacing=3 cellPadding=2 width="100%" border=1>
 <TBODY>
 <TR>
 <TD class=bgn width="18%">Número de RUC: </TD>
-<TD class=bg colSpan=3>20250406941 - AGROVET MARKET S.A</TD></TR>
+<TD class=bg colSpan=3>20422561537 - IMPULSO INFORMATICO S.A.</TD></TR>
 <TR>
 <TD class=bgn>Tipo Contribuyente: </TD>
 <TD class=bg colSpan=3>SOCIEDAD ANONIMA</TD></TR>
@@ -71,9 +71,9 @@
 <TD class=bg>-</TD></TR>
 <TR>
 <TD class=bgn>Fecha de Inscripción: </TD>
-<TD class=bg>06/05/1994</TD>
+<TD class=bg>23/02/1999</TD>
 <TD class=bgn width="27%">Fecha Inicio de Actividades:</TD>
-<TD class=bg>01/05/1994</TD></TR>
+<TD class=bg>01/03/1999</TD></TR>
 <TR>
 <TD class=bgn>Estado del Contribuyente: </TD>
 <TD class=bg>ACTIVO</TD>
@@ -83,52 +83,52 @@
 <TD class=bg>HABIDO </TD></TR>
 <TR>
 <TD class=bgn>Dirección del Domicilio Fiscal:</TD>
-<TD class=bg colSpan=3>AV. CANADA NRO. 3792 INT. 3798 URB. VILLA JARDIN LIMA - LIMA - SAN LUIS</TD></TR>
+<TD class=bg colSpan=3>AV. AREQUIPA NRO. 2923 (FRENTE A ESSALUD) LIMA - LIMA - SAN ISIDRO</TD></TR>
 <TR>
 <TD class=bgn>Sistema de Emisión de Comprobante:</TD>
 <TD class=bg>MANUAL</TD>
 <TD class=bgn>Actividad de Comercio Exterior:</TD>
-<TD class=bg>IMPORTADOR/EXPORTADOR</TD></TR>
+<TD class=bg>IMPORTADOR</TD></TR>
 <TR>
 <TD class=bgn>Sistema de Contabilidad:</TD>
 <TD class=bg colSpan=3>COMPUTARIZADO</TD></TR>
 <TR>
 <TD class=bgn>Actividad(es) Económica(s):</TD>
-<TD class=bg colSpan=3>Principal - 4799 - OTRAS ACTIVIDADES DE VENTA AL POR MENOR NO REALIZADAS EN COMERCIOS, PUESTOS DE VENTA O MERCADOS<BR><!--SC003-2015 Inicio--><!--SC003-2015 Fin--><!--SC003-2015 Fin--></TD></TR>
+<TD class=bg colSpan=3>Principal - 4690 - VENTA AL POR MAYOR NO ESPECIALIZADA<BR><!--SC003-2015 Inicio--><!--SC003-2015 Fin--><!--SC003-2015 Fin--></TD></TR>
 <TR>
 <TD class=bgn>Comprobantes de Pago c/aut. de impresión (F. 806 u 816): </TD>
-<TD class=bg colSpan=3><BR>FACTURA <BR>BOLETA DE VENTA <BR>NOTA DE CREDITO <BR>NOTA DE DEBITO <BR>GUIA DE REMISION - REMITENTE <BR>COMPROBANTE DE RETENCION </TD></TR><!--ICR Inicio Cambios 23/11/2010 -->
+<TD class=bg colSpan=3><BR>FACTURA <BR>BOLETA DE VENTA <BR>NOTA DE CREDITO <BR>NOTA DE DEBITO <BR>GUIA DE REMISION - REMITENTE </TD></TR><!--ICR Inicio Cambios 23/11/2010 -->
 <TR>
 <TD class=bgn>Sistema de Emisión Electrónica: </TD>
-<TD class=bg colSpan=3><BR>DESDE LOS SISTEMAS DEL CONTRIBUYENTE. AUTORIZ DESDE 22/06/2016 </TD></TR>
+<TD class=bg colSpan=3><BR>FACTURA PORTAL DESDE 31/10/2018 <BR>DESDE LOS SISTEMAS DEL CONTRIBUYENTE. AUTORIZ DESDE 26/02/2019 <BR>SEE-FACTURADOR . AUTORIZ DESDE 07/12/2016 </TD></TR>
 <TR>
 <TD class=bgn>Afiliado al PLE desde: </TD>
-<TD class=bg colSpan=3>01/01/2013 </TD></TR><!--ICR Fin Cambios 23/11/2010 -->
+<TD class=bg colSpan=3>01/01/2014 </TD></TR><!--ICR Fin Cambios 23/11/2010 -->
 <TR>
 <TD class=bgn>Padrones :</TD>
-<TD class=bg colSpan=3>Incorporado al Régimen de Agentes de Retención de IGV (R.S.395-2014) a partir del 01/02/2015<BR><!-- JRR - 20/09/2010 - Se añade cambio de Igor --></TD></TR></TBODY></TABLE>
+<TD class=bg colSpan=3>Incorporado al Régimen de Buenos Contribuyentes (Resolución N° 0110050002937) a partir del 01/05/2019<BR><!-- JRR - 20/09/2010 - Se añade cambio de Igor --></TD></TR></TBODY></TABLE>
 <DIV></DIV></DIV></TD></TR></TBODY></TABLE><SPAN id=div_estrep style="DISPLAY: block">
 <TABLE class=form-table cellSpacing=2 cellPadding=2 width="100%" border=0>
 <TBODY>
 <TR>
 <TD vAlign=middle align=center>
-<FORM method=post name=forminfoHist action=/cl-ti-itmrconsruc/jcrS00Alias><INPUT onclick=submitInforHist() class=form-button type=submit value="Información Histórica" name=submit> <INPUT type=hidden value=getinfHis name=accion> <INPUT type=hidden value=20250406941 name=nroRuc> <INPUT type=hidden value="AGROVET MARKET S.A" name=desRuc> </FORM></TD>
+<FORM method=post name=forminfoHist action=/cl-ti-itmrconsruc/jcrS00Alias><INPUT onclick=submitInforHist() class=form-button type=submit value="Información Histórica" name=submit> <INPUT type=hidden value=getinfHis name=accion> <INPUT type=hidden value=20422561537 name=nroRuc> <INPUT type=hidden value="IMPULSO INFORMATICO S.A." name=desRuc> </FORM></TD>
 <TD vAlign=middle align=center>
-<FORM method=post name=formInfoDeudaCoactiva action=/cl-ti-itmrconsruc/jcrS00Alias><INPUT onclick=submitInforHist() class=form-button type=submit value="Deuda Coactiva" name=submit> <INPUT type=hidden value=getInfoDC name=accion> <INPUT type=hidden value=20250406941 name=nroRuc> <INPUT type=hidden value="AGROVET MARKET S.A" name=desRuc> </FORM></TD>
+<FORM method=post name=formInfoDeudaCoactiva action=/cl-ti-itmrconsruc/jcrS00Alias><INPUT onclick=submitInforHist() class=form-button type=submit value="Deuda Coactiva" name=submit> <INPUT type=hidden value=getInfoDC name=accion> <INPUT type=hidden value=20422561537 name=nroRuc> <INPUT type=hidden value="IMPULSO INFORMATICO S.A." name=desRuc> </FORM></TD>
 <TD vAlign=middle align=center>
-<FORM method=post name=formInfoOmisionTributaria action=/cl-ti-itmrconsruc/jcrS00Alias><INPUT onclick=submitInforHist() class=form-button type=submit value="Omisiones Tributarias" name=submit> <INPUT type=hidden value=getInfoOT name=accion> <INPUT type=hidden value=20250406941 name=nroRuc> <INPUT type=hidden value="AGROVET MARKET S.A" name=desRuc> </FORM></TD>
+<FORM method=post name=formInfoOmisionTributaria action=/cl-ti-itmrconsruc/jcrS00Alias><INPUT onclick=submitInforHist() class=form-button type=submit value="Omisiones Tributarias" name=submit> <INPUT type=hidden value=getInfoOT name=accion> <INPUT type=hidden value=20422561537 name=nroRuc> <INPUT type=hidden value="IMPULSO INFORMATICO S.A." name=desRuc> </FORM></TD>
 <TD vAlign=middle align=center>
-<FORM method=post name=formNumTrabajd action=/cl-ti-itmrconsruc/jcrS00Alias><INPUT onclick=submitInforHist() class=form-button type=submit value="Cantidad de Trabajadores y/o Prestadores de Servicio" name=submit> <INPUT type=hidden value=getCantTrab name=accion> <INPUT type=hidden value=20250406941 name=nroRuc> <INPUT type=hidden value="AGROVET MARKET S.A" name=desRuc> </FORM></TD></TR>
+<FORM method=post name=formNumTrabajd action=/cl-ti-itmrconsruc/jcrS00Alias><INPUT onclick=submitInforHist() class=form-button type=submit value="Cantidad de Trabajadores y/o Prestadores de Servicio" name=submit> <INPUT type=hidden value=getCantTrab name=accion> <INPUT type=hidden value=20422561537 name=nroRuc> <INPUT type=hidden value="IMPULSO INFORMATICO S.A." name=desRuc> </FORM></TD></TR>
 <TR class=showScreen align=center vAlign=middle>
 <TD vAlign=middle align=center>
-<FORM method=post name=formActPro action=/cl-ti-itmrconsruc/jcrS00Alias><INPUT onclick=submitActPro() class=form-button type=submit value="Actas Probatorias"> <INPUT type=hidden value=getActPro name=accion> <INPUT type=hidden value="AGROVET MARKET S.A" name=desRuc> <INPUT type=hidden value=20250406941 name=nroRuc> </FORM></TD>
+<FORM method=post name=formActPro action=/cl-ti-itmrconsruc/jcrS00Alias><INPUT onclick=submitActPro() class=form-button type=submit value="Actas Probatorias"> <INPUT type=hidden value=getActPro name=accion> <INPUT type=hidden value="IMPULSO INFORMATICO S.A." name=desRuc> <INPUT type=hidden value=20422561537 name=nroRuc> </FORM></TD>
 <TD vAlign=middle align=center>
-<FORM method=post name=formActCPF action=/cl-ti-itmrconsruc/jcrS00Alias><INPUT onclick=submitActCPF() class=form-button type=submit value="Facturas Fisicas"> <INPUT type=hidden value=getActCPF name=accion> <INPUT type=hidden value="AGROVET MARKET S.A" name=desRuc> <INPUT type=hidden value=20250406941 name=nroRuc> </FORM></TD><!--Ralvarado Ocultado a peticion de Galindes - Inicio--><!--Ralvarado Ocultado a peticion de Galindes - Fin--></TR>
+<FORM method=post name=formActCPF action=/cl-ti-itmrconsruc/jcrS00Alias><INPUT onclick=submitActCPF() class=form-button type=submit value="Facturas Fisicas"> <INPUT type=hidden value=getActCPF name=accion> <INPUT type=hidden value="IMPULSO INFORMATICO S.A." name=desRuc> <INPUT type=hidden value=20422561537 name=nroRuc> </FORM></TD><!--Ralvarado Ocultado a peticion de Galindes - Inicio--><!--Ralvarado Ocultado a peticion de Galindes - Fin--></TR>
 <TR class=showScreen align=center vAlign=middle>
 <TD vAlign=middle align=center>
-<FORM method=post name=formRepLeg action=/cl-ti-itmrconsruc/jcrS00Alias><INPUT onclick=submitRepLeg() class=form-button type=submit value="Representante(s) Legal(es)"> <INPUT type=hidden value=getRepLeg name=accion> <INPUT type=hidden value="AGROVET MARKET S.A" name=desRuc> <INPUT type=hidden value=20250406941 name=nroRuc> </FORM></TD>
+<FORM method=post name=formRepLeg action=/cl-ti-itmrconsruc/jcrS00Alias><INPUT onclick=submitRepLeg() class=form-button type=submit value="Representante(s) Legal(es)"> <INPUT type=hidden value=getRepLeg name=accion> <INPUT type=hidden value="IMPULSO INFORMATICO S.A." name=desRuc> <INPUT type=hidden value=20422561537 name=nroRuc> </FORM></TD>
 <TD vAlign=middle align=center>
-<FORM method=post name=formLocAnex action=/cl-ti-itmrconsruc/jcrS00Alias><INPUT onclick=submitLocAnex() class=form-button type=submit value="Establecimiento(s) Anexo(s)" name=submit> <INPUT type=hidden value=20250406941 name=nroRuc> <INPUT type=hidden value=getLocAnex name=accion> <INPUT type=hidden value="AGROVET MARKET S.A" name=desRuc> </FORM></TD></TR>
+<FORM method=post name=formLocAnex action=/cl-ti-itmrconsruc/jcrS00Alias><INPUT onclick=submitLocAnex() class=form-button type=submit value="Establecimiento(s) Anexo(s)" name=submit> <INPUT type=hidden value=20422561537 name=nroRuc> <INPUT type=hidden value=getLocAnex name=accion> <INPUT type=hidden value="IMPULSO INFORMATICO S.A." name=desRuc> </FORM></TD></TR>
 <TR>
 <TD vAlign=middle colSpan=4 align=center>
 <DIV class=buttonbar>
@@ -140,7 +140,7 @@
 <TD></TD>
 <TD><A onclick=" Imprimible();" href="#"><IMG border=0 src="/a/imagenes/impresora.gif" align=absMiddle> Version Imprimible </A></TD>
 <TD class=bgn vAlign=middle><BR>
-<FORM onsubmit="return validaemail(this)" method=post name=formEnviar action=/cl-ti-itmrconsruc/jcrS00Alias target=mainFrame><!--inicio modificacion rmanriq1--><INPUT type=hidden value=20250406941 name=nroRuc> <INPUT type=hidden value="AGROVET MARKET S.A" name=desRuc> <!--fin modificacion rmanriq1--><INPUT type=hidden value=enviar name=accion> <INPUT type=hidden value=datosRuc name=pagina> <INPUT type=hidden name=correo> <IMG border=0 src="/a/imagenes/lgcorreo.gif" align=absMiddle> &nbsp; e-mail <INPUT name=email> <INPUT class=form-button type=submit value=enviar> </FORM></TD></TR></TBODY></TABLE></DIV></TD></TR></TBODY></TABLE></SPAN>
+<FORM onsubmit="return validaemail(this)" method=post name=formEnviar action=/cl-ti-itmrconsruc/jcrS00Alias target=mainFrame><!--inicio modificacion rmanriq1--><INPUT type=hidden value=20422561537 name=nroRuc> <INPUT type=hidden value="IMPULSO INFORMATICO S.A." name=desRuc> <!--fin modificacion rmanriq1--><INPUT type=hidden value=enviar name=accion> <INPUT type=hidden value=datosRuc name=pagina> <INPUT type=hidden name=correo> <IMG border=0 src="/a/imagenes/lgcorreo.gif" align=absMiddle> &nbsp; e-mail <INPUT name=email> <INPUT class=form-button type=submit value=enviar> </FORM></TD></TR></TBODY></TABLE></DIV></TD></TR></TBODY></TABLE></SPAN>
 <TABLE cellPadding=0 width="100%" align=center border=0>
 <TBODY>
 <TR>
@@ -184,6 +184,6 @@ function avance(){
 <TABLE cellSpacing=0 cellPadding=0 width="100%">
 <TBODY>
 <TR>
-<TH class=bgn>Copyright © SUNAT 1997 - 2019</TH></TR>
+<TH class=bgn>Copyright © SUNAT 1997 - 2020</TH></TR>
 <TR>
 <TD width="100%" align=right><A href="http://www.sunat.gob.pe/inicio.htm" target=_parent><IMG border=0 alt=Inicio src="/a/imagenes/sunatpc.jpg" align=bottom></A> </TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></WL:CACHE>
