@@ -81,14 +81,33 @@ ENDIF
     loxmlresp = CREATEOBJECT("MSXML2.DOMDocument.6.0")
     loxmlresp.loadxml(oxmlhttp.responsetext)
     ccontenidorptazip = STREXTRACT(oxmlhttp.responsetext, "<applicationResponse>", "</applicationResponse>")
-    STRTOFILE(STRCONV(ccontenidorptazip, 14), ruta_cdr_local+"R-"+_nombrearchivose+".zip")
-    STRTOFILE(STRCONV(ccontenidorptazip, 14), ruta_cdr_server+"R-"+_nombrearchivose+".zip") 
-    STRTOFILE(STRCONV(ccontenidorptazip, 14), ruta_rpta_server+"R-"+_nombrearchivose+".zip")
-    *STRTOFILE(STRCONV(ccontenidorptazip, 14), _rutaxml_cdr+"R-"+_nombrearchivose_CLIENTE+".zip")
-    *STRTOFILE(STRCONV(ccontenidorptazip, 14), _rutaxml_cdr_server+"R-"+_nombrearchivose_CLIENTE+".zip")  
-    *MESSAGEBOX(oxmlhttp.responsetext)
-    *RETURN "COMPROBANTE ENVIADO Y ACEPTADO"
-    RETURN '<message>ENVIADO Y ACEPTADO</message> '+'<httpstatus>'+ALLTRIM(STR(oxmlhttp.status))+'</httpstatus>'+'-'+NVL(oxmlhttp.responsetext, '')
+    MESSAGEBOX(oxmlhttp.responsetext)
+    
+    Vlc_faultcode = STREXTRACT(oxmlhttp.responsetext, "<faultcode>", "</faultcode>")
+    Vlc_faultstring= STREXTRACT(oxmlhttp.responsetext, "<faultstring>", "</faultstring>")
+    Vlc_message= STREXTRACT(oxmlhttp.responsetext, "<message>", "</message>")
+    
+    IF EMPTY(Vlc_faultcode) AND EMPTY(Vlc_faultstring) AND EMPTY(Vlc_message) THEN 
+    
+	    DELETE FILE ALLTRIM(ruta_cdr_local+"R-"+_nombrearchivose+".zip")
+	    STRTOFILE(STRCONV(ccontenidorptazip, 14), ruta_cdr_local+"R-"+_nombrearchivose+".zip")
+	    
+	    DELETE FILE ALLTRIM(ruta_cdr_server+"R-"+_nombrearchivose+".zip")
+	    STRTOFILE(STRCONV(ccontenidorptazip, 14), ruta_cdr_server+"R-"+_nombrearchivose+".zip")
+	     
+	    DELETE FILE ALLTRIM(ruta_rpta_server+"R-"+_nombrearchivose+".zip")
+	    STRTOFILE(STRCONV(ccontenidorptazip, 14), ruta_rpta_server+"R-"+_nombrearchivose+".zip")
+	    *STRTOFILE(STRCONV(ccontenidorptazip, 14), _rutaxml_cdr+"R-"+_nombrearchivose_CLIENTE+".zip")
+	    *STRTOFILE(STRCONV(ccontenidorptazip, 14), _rutaxml_cdr_server+"R-"+_nombrearchivose_CLIENTE+".zip")  
+	    *MESSAGEBOX(oxmlhttp.responsetext)
+	    *RETURN "COMPROBANTE ENVIADO Y ACEPTADO"
+	    RETURN '<message>ENVIADO Y ACEPTADO</message> '+'<httpstatus>'+ALLTRIM(STR(oxmlhttp.status))+'</httpstatus>'+'-'+NVL(oxmlhttp.responsetext, '')
+	    
+    ELSE
+    	RETURN oxmlhttp.responsetext
+    ENDIF 
+    
+    
     * rptawsticket = 
  ENDIF
 

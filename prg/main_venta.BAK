@@ -125,8 +125,8 @@ VGC_LLAVE =''
 *---------------------
 
 *****VERSION
-Vgc_version='1.0.0.28'
-Vgc_vigencia='03/12/2019'
+Vgc_version='1.0.0.29'
+Vgc_vigencia='06/12/2019'
 ***VERSION
 SET STEP ON
 Local cnControladorArch,nTamaño,cCadena
