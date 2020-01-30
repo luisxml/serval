@@ -1,49 +1,41 @@
-Número de RUC: 20422561537 - IMPULSO INFORMATICO S.A.
-Tipo Contribuyente: SOCIEDAD ANONIMA
+Número de RUC: 20603674708 - PACIFICO ALGAS AREQUIPA S.A.C.
+Tipo Contribuyente: SOCIEDAD ANONIMA CERRADA
 Nombre Comercial: -
-Fecha de Inscripción: 23/02/1999Fecha de Inicio de Actividades:01/03/1999
+Fecha de Inscripción: 06/10/2018Fecha de Inicio de Actividades:22/10/2018
 Estado del Contribuyente: ACTIVO
 Condición del Contribuyente:HABIDO 
-Dirección del Domicilio Fiscal:AV. AREQUIPA NRO. 2923 (FRENTE A ESSALUD) LIMA - LIMA - SAN ISIDRO
-Sistema de Emisión de Comprobante:MANUALActividad de Comercio Exterior:IMPORTADOR
+Dirección del Domicilio Fiscal:AV. AREQUIPA NRO. 700 (POR LA PLANTA ARACANTO) AREQUIPA - ISLAY - ISLAY
+Sistema de Emisión de Comprobante:MANUALActividad de Comercio Exterior:IMPORTADOR/EXPORTADOR
 Sistema de Contabilidad:COMPUTARIZADO
-Actividad(es) Económica(s): 4690 - VENTA AL POR MAYOR NO ESPECIALIZADA 
-Comprobantes de Pago c/aut. de impresión (F. 806 u 816):  FACTURA BOLETA DE VENTA NOTA DE CREDITO NOTA DE DEBITO GUIA DE REMISION - REMITENTE 
-Sistema de Emision Electronica:  FACTURA PORTAL DESDE 31/10/2018 DESDE LOS SISTEMAS DEL CONTRIBUYENTE. AUTORIZ DESDE 26/02/2019 SEE-FACTURADOR . AUTORIZ DESDE 07/12/2016 
-Emisor electrónico desde: 07/12/2016
-Comprobantes Electrónicos: FACTURA (desde 07/12/2016),BOLETA (desde 26/02/2019)
-Afiliado al PLE desde: 01/01/2014 
-Padrones : Incorporado al Régimen de Buenos Contribuyentes (Resolución N° 0110050002937) a partir del 01/05/2019 
-CONSULTA RUC: 20422561537 - IMPULSO INFORMATICO S.A.
-Número de RUC: 20422561537 - IMPULSO INFORMATICO S.A.
-Tipo Contribuyente: SOCIEDAD ANONIMA
+Actividad(es) Económica(s): 0311 - PESCA MARÍTIMA 
+Comprobantes de Pago c/aut. de impresión (F. 806 u 816):  NINGUNO 
+Sistema de Emision Electronica: - 
+Emisor electrónico desde: -
+Comprobantes Electrónicos: -
+Afiliado al PLE desde: - 
+Padrones : NINGUNO 
+CONSULTA RUC: 20603674708 - PACIFICO ALGAS AREQUIPA S.A.C.
+Número de RUC: 20603674708 - PACIFICO ALGAS AREQUIPA S.A.C.
+Tipo Contribuyente: SOCIEDAD ANONIMA CERRADA
 Nombre Comercial: -
-Fecha de Inscripción: 23/02/1999Fecha Inicio de Actividades:01/03/1999
+Fecha de Inscripción: 06/10/2018Fecha Inicio de Actividades:22/10/2018
 Estado del Contribuyente: ACTIVO
 Condición del Contribuyente:HABIDO 
-Dirección del Domicilio Fiscal:AV. AREQUIPA NRO. 2923 (FRENTE A ESSALUD) LIMA - LIMA - SAN ISIDRO
-Sistema de Emisión de Comprobante:MANUALActividad de Comercio Exterior:IMPORTADOR
+Dirección del Domicilio Fiscal:AV. AREQUIPA NRO. 700 (POR LA PLANTA ARACANTO) AREQUIPA - ISLAY - ISLAY
+Sistema de Emisión de Comprobante:MANUALActividad de Comercio Exterior:IMPORTADOR/EXPORTADOR
 Sistema de Contabilidad:COMPUTARIZADO
-Actividad(es) Económica(s):Principal - 4690 - VENTA AL POR MAYOR NO ESPECIALIZADA
+Actividad(es) Económica(s):Principal - 0311 - PESCA MARÍTIMA
 
-Comprobantes de Pago c/aut. de impresión (F. 806 u 816): 
-FACTURA 
-BOLETA DE VENTA 
-NOTA DE CREDITO 
-NOTA DE DEBITO 
-GUIA DE REMISION - REMITENTE 
-Sistema de Emisión Electrónica: 
-FACTURA PORTAL DESDE 31/10/2018 
-DESDE LOS SISTEMAS DEL CONTRIBUYENTE. AUTORIZ DESDE 26/02/2019 
-SEE-FACTURADOR . AUTORIZ DESDE 07/12/2016 
-Afiliado al PLE desde: 01/01/2014 
-Padrones :Incorporado al Régimen de Buenos Contribuyentes (Resolución N° 0110050002937) a partir del 01/05/2019
+Comprobantes de Pago c/aut. de impresión (F. 806 u 816): NINGUNO 
 
+Sistema de Emisión Electrónica: - 
+Afiliado al PLE desde: - 
+Padrones :NINGUNO 
 
 
                 
         
-        
+    
  Version Imprimible 
 
         e-mail   
