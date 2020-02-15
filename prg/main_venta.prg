@@ -125,7 +125,7 @@ VGC_LLAVE =''
 *---------------------
 
 *****VERSION
-Vgc_version='1.0.0.30'
+Vgc_version='1.0.0.32'
 Vgc_vigencia='15/01/2020'
 ***VERSION
 SET STEP ON
