@@ -1,45 +1,42 @@
-Número de RUC: 20206527308 - TRANSPORTES DE AGUA SEÑOR DE HUANCA E.I.R.L.
-Tipo Contribuyente: EMPRESA INDIVIDUAL DE RESP. LTDA
+Número de RUC: 20605620061 - CONSORCIO NUEVO LIMATAMBO
+Tipo Contribuyente: CONTRATOS COLABORACION EMPRESARIAL
 Nombre Comercial: -
-Fecha de Inscripción: 22/01/1994Fecha de Inicio de Actividades:19/01/1994
+Fecha de Inscripción: 09/12/2019Fecha de Inicio de Actividades:05/12/2019
 Estado del Contribuyente: ACTIVO
 Condición del Contribuyente:HABIDO 
-Dirección del Domicilio Fiscal:AV. GERARDO UNGER NRO. 1405 LIMA - LIMA - SAN MARTIN DE PORRES
-Sistema de Emisión de Comprobante:MANUAL/COMPUTARIZADOActividad de Comercio Exterior:SIN ACTIVIDAD
-Sistema de Contabilidad:MANUAL/COMPUTARIZADO
-Actividad(es) Económica(s): 4923 - TRANSPORTE DE CARGA POR CARRETERA 
-Comprobantes de Pago c/aut. de impresión (F. 806 u 816):  FACTURA BOLETA DE VENTA NOTA DE CREDITO GUIA DE REMISION - REMITENTE 
-Sistema de Emision Electronica:  FACTURA PORTAL DESDE 04/03/2019 
-Emisor electrónico desde: 04/03/2019
-Comprobantes Electrónicos: FACTURA (desde 04/03/2019)
-Afiliado al PLE desde: 01/01/2015 
+Dirección del Domicilio Fiscal:AV. REPUBLICA DE COLOMBIA NRO. 791 (FRENTE AL COLEGIO ALFONSO UGARTE) LIMA - LIMA - SAN ISIDRO
+Sistema de Emisión de Comprobante:COMPUTARIZADOActividad de Comercio Exterior:IMPORTADOR/EXPORTADOR
+Sistema de Contabilidad:COMPUTARIZADO
+Actividad(es) Económica(s): 4390 - OTRAS ACTIVIDADES ESPECIALIZADAS DE CONSTRUCCIÓN 
+Comprobantes de Pago c/aut. de impresión (F. 806 u 816):  GUIA DE REMISION - REMITENTE 
+Sistema de Emision Electronica:  FACTURA PORTAL DESDE 02/01/2020 
+Emisor electrónico desde: 02/01/2020
+Comprobantes Electrónicos: FACTURA (desde 02/01/2020)
+Afiliado al PLE desde: - 
 Padrones : NINGUNO 
-CONSULTA RUC: 20206527308 - TRANSPORTES DE AGUA SEÑOR DE HUANCA E.I.R.L.
-Número de RUC: 20206527308 - TRANSPORTES DE AGUA SEÑOR DE HUANCA E.I.R.L.
-Tipo Contribuyente: EMPRESA INDIVIDUAL DE RESP. LTDA
+CONSULTA RUC: 20605620061 - CONSORCIO NUEVO LIMATAMBO
+Número de RUC: 20605620061 - CONSORCIO NUEVO LIMATAMBO
+Tipo Contribuyente: CONTRATOS COLABORACION EMPRESARIAL
 Nombre Comercial: -
-Fecha de Inscripción: 22/01/1994Fecha Inicio de Actividades:19/01/1994
+Fecha de Inscripción: 09/12/2019Fecha Inicio de Actividades:05/12/2019
 Estado del Contribuyente: ACTIVO
 Condición del Contribuyente:HABIDO 
-Dirección del Domicilio Fiscal:AV. GERARDO UNGER NRO. 1405 LIMA - LIMA - SAN MARTIN DE PORRES
-Sistema de Emisión de Comprobante:MANUAL/COMPUTARIZADOActividad de Comercio Exterior:SIN ACTIVIDAD
-Sistema de Contabilidad:MANUAL/COMPUTARIZADO
-Actividad(es) Económica(s):Principal - 4923 - TRANSPORTE DE CARGA POR CARRETERA
+Dirección del Domicilio Fiscal:AV. REPUBLICA DE COLOMBIA NRO. 791 (FRENTE AL COLEGIO ALFONSO UGARTE) LIMA - LIMA - SAN ISIDRO
+Sistema de Emisión de Comprobante:COMPUTARIZADOActividad de Comercio Exterior:IMPORTADOR/EXPORTADOR
+Sistema de Contabilidad:COMPUTARIZADO
+Actividad(es) Económica(s):Principal - 4390 - OTRAS ACTIVIDADES ESPECIALIZADAS DE CONSTRUCCIÓN
 
 Comprobantes de Pago c/aut. de impresión (F. 806 u 816): 
-FACTURA 
-BOLETA DE VENTA 
-NOTA DE CREDITO 
 GUIA DE REMISION - REMITENTE 
 Sistema de Emisión Electrónica: 
-FACTURA PORTAL DESDE 04/03/2019 
-Afiliado al PLE desde: 01/01/2015 
+FACTURA PORTAL DESDE 02/01/2020 
+Afiliado al PLE desde: - 
 Padrones :NINGUNO 
 
 
                 
         
-    
+        
  Version Imprimible 
 
         e-mail   
