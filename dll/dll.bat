@@ -1,3 +1,3 @@
 @echo off
 
-regsvr32 D:\SERVAL_VENTAS\DLL\XZip.dll
+regsvr32 D:\developer\serval\DLL\XZip.dll

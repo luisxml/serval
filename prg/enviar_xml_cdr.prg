@@ -3,7 +3,7 @@ SET STEP ON
  PUBLIC rptawsticket
  rptawsticket = "ERROR"
  ls_ruc_emisor = rucsol
- ls_user = ls_ruc_emisor+usuariosol
+ *ls_user = ls_ruc_emisor+usuariosol
  ls_pwd_sol = clavesol
 
 *!*	 TEXT TO ls_envioxml TEXTMERGE NOSHOW PRETEXT 0015 FLAGS 1
@@ -26,28 +26,28 @@ SET STEP ON
 
 *!*	 ENDTEXT
 TEXT TO ls_envioxml TEXTMERGE NOSHOW PRETEXT 0015 FLAGS 1
-<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
-				   xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"
-				   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-				   xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-				   xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wsswssecurity-secext-1.0.xsd">
-	<SOAP-ENV:Header xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope">
-		<wsse:Security>
-			<wsse:UsernameToken>
+	<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+					   xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"
+					   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					   xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+					   xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wsswssecurity-secext-1.0.xsd">
+		<SOAP-ENV:Header xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope">
+			<wsse:Security>
+				<wsse:UsernameToken>
 				<wsse:Username>20538236021CYB3RFAC</wsse:Username>
 				<wsse:Password>C1bers@c1</wsse:Password>
-			</wsse:UsernameToken>
-		</wsse:Security>
-	</SOAP-ENV:Header>
-	<SOAP-ENV:Body>
-		<m:getStatusCdr xmlns:m="http://service.sunat.gob.pe">
-			<rucComprobante>20520485750</rucComprobante>
-			<tipoComprobante>01</tipoComprobante>
-			<serieComprobante>F001</serieComprobante>
-			<numeroComprobante>529</numeroComprobante>
-		</m:getStatusCdr>
-	</SOAP-ENV:Body>
-</SOAP-ENV:Envelope>
+				</wsse:UsernameToken>
+			</wsse:Security>
+		</SOAP-ENV:Header>
+		<SOAP-ENV:Body>
+			<m:getStatusCdr xmlns:m="http://service.sunat.gob.pe">
+				<rucComprobante>20556162647</rucComprobante>
+				<tipoComprobante>01</tipoComprobante>
+				<serieComprobante>F001</serieComprobante>
+				<numeroComprobante>779</numeroComprobante>
+			</m:getStatusCdr>
+		</SOAP-ENV:Body>
+	</SOAP-ENV:Envelope>
 ENDTEXT
  oxmlhttp = CREATEOBJECT("MSXML2.ServerXMLHTTP.6.0")
  oxmlbody = CREATEOBJECT('MSXML2.DOMDocument.6.0')
@@ -56,12 +56,14 @@ ENDTEXT
     *RETURN .F.
     RETURN "<message>ERROR NO SE CARGO XML</message>"
  ENDIF
- lsurl = purlws
+ lsurl = "https://e-factura.sunat.gob.pe/ol-it-wsconscpegem/billConsultService"
+ *lsurl = "https://e-beta.sunat.gob.pe/ol-ti-itcpfegem-beta/billService"
+ 
  oxmlhttp.open('POST', lsurl, .F.)
  oxmlhttp.setrequestheader("Content-Type", "text/xml")
  oxmlhttp.setrequestheader("Content-Type", "text/xml;charset=ISO-8859-1")
  oxmlhttp.setrequestheader("Content-Length", LEN(ls_envioxml))
- oxmlhttp.setrequestheader("SOAPAction", "getStatus")
+ oxmlhttp.setrequestheader("SOAPAction", "getStatusCdr")
  oxmlhttp.setoption(2, 13056) 
  
  lcErr = "" 

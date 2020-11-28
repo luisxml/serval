@@ -7,6 +7,10 @@ SET STEP ON
  ls_pwd_sol = clavesol
  ps_file = _rutaxml+_nombrearchivose
  ps_filezip = ps_file+".zip"
+ IF  .NOT. FILE(ps_filezip)
+    *RETURN "Archivo zip a enviar no encontrado"
+    RETURN "<message>Error: Comprobante NO SE HA ENVIADO - Archivo zip a enviar no encontrado</message>"
+ ENDIF 
  ls_filename = JUSTFNAME(ps_filezip)
  ls_contentfile = FILETOSTR(ps_filezip)
  ls_base64 = STRCONV(ls_contentfile, 13)
@@ -33,7 +37,7 @@ SET STEP ON
  oxmlbody = CREATEOBJECT('MSXML2.DOMDocument.6.0')
  IF  .NOT. (oxmlbody.loadxml(ls_envioxml))
     oresp.mensaje = "No se cargo XML: "+oxmlbody.parseerror.reason
-    rptawsticket = "<message>ERROR NO SE CARGO XML</message>"
+    rptawsticket = "<message>Error: Comprobante NO SE HA ENVIADO - NO SE CARGO XML</message>"
     RETURN rptawsticket
  ENDIF
  lsurl = _urlws
@@ -46,11 +50,27 @@ SET STEP ON
  oxmlhttp.setoption(2, 13056)
  oxmlhttp.send(oxmlbody.documentelement.xml)
  IF (oxmlhttp.status<>200)
-    rptawsticket = '<message>ERROR EN EL ENVIO</message> '+'<httpstatus>'+ALLTRIM(STR(oxmlhttp.status))+'</httpstatus>'+'-'+NVL(oxmlhttp.responsetext, '')
+ 
+ 	Vlc_faultcode = STREXTRACT(oxmlhttp.responsetext, "<statusCode>", "</statusCode>")
+    Vlc_faultstring= STREXTRACT(oxmlhttp.responsetext, "<content>", "</content>")
+    Vlc_message= STREXTRACT(oxmlhttp.responsetext, "<message>", "</message>")
+    
+    rptawsticket = '<message>Error: Comprobante NO SE HA ENVIADO - ' + Vlc_faultstring + ' </message> '+'<httpstatus>'+ALLTRIM(STR(oxmlhttp.status))+'</httpstatus>'+'-'+NVL(oxmlhttp.responsetext, '')
     RETURN rptawsticket
  ENDIF
  loxmlresp = CREATEOBJECT("MSXML2.DOMDocument.6.0")
  loxmlresp.loadxml(oxmlhttp.responsetext)
+ 
+ 	Vlc_faultcode = STREXTRACT(oxmlhttp.responsetext, "<statusCode>", "</statusCode>")
+    Vlc_faultstring= STREXTRACT(oxmlhttp.responsetext, "<content>", "<content>")
+    Vlc_message= STREXTRACT(oxmlhttp.responsetext, "<message>", "</message>")
+    
+    IF EMPTY(Vlc_faultcode) AND EMPTY(Vlc_faultstring) AND EMPTY(Vlc_message) THEN
+    	rptawsticket = '<message>ENVIADO</message> '+'<httpstatus>'+ALLTRIM(STR(oxmlhttp.status))+'</httpstatus>'+'-'+NVL(oxmlhttp.responsetext, '')
+ 		RETURN rptawsticket
+    ELSE
+    	rptawsticket = '<message>Error: Comprobante NO SE HA ENVIADO - ' + Vlc_faultstring + '</message> '+'<httpstatus>400</httpstatus>'+'-'+NVL(oxmlhttp.responsetext, '')
+ 		RETURN rptawsticket
+    ENDIF 
  *rptawsticket = STREXTRACT(oxmlhttp.responsetext, "<ticket>", "</ticket>")
- rptawsticket = '<message>ENVIADO</message> '+'<httpstatus>'+ALLTRIM(STR(oxmlhttp.status))+'</httpstatus>'+'-'+NVL(oxmlhttp.responsetext, '')
- RETURN rptawsticket
+ 
