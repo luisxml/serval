@@ -102,7 +102,7 @@ MODIFY WINDOWS SCREEN TITLE ".:: SERVAL - SISTEMA DE GESTION ::."
 PUBLIC lcAppDir,Vgc_almatrab,Vgc_usuario,nres,Vpc_server,Vgc_impresora,Vgc_impresora2,Vgc_version 
 PUBLIC Vlc_numbl,Vlc_numcont,Vlc_nombrebuque,Vlc_numviaje,Vlc_fechaatr,Vgc_cliente2,Vgc_cambiom,Vpc_nuevafecha,Vpn_fecha_desde2,Vpn_fecha_hasta2,Vgc_clic,Vgn_opt,Vgc_cliente2,conex,Vgn_tipousu,lcConnect
 PUBLIC Vgc_clic,Vgn_opt,Vgc_cliente2,conex,Vgn_tipousu,Vgc_serie,Vgc_nomb_usu,Vgn_actual,fg_conectado,Vgn_super_user,VPC_llave,Vgc_caja,caja,Vgc_barras
-PUBLIC Vgc_fg_barra_menu,VGC_LLAVE
+PUBLIC Vgc_fg_barra_menu,VGC_LLAVE,Vgc_localmente
 
 Vgc_barras =0 
 Vgn_super_user=0
@@ -125,7 +125,7 @@ VGC_LLAVE =''
 *---------------------
 
 *****VERSION
-Vgc_version='2.1.3'
+Vgc_version='2.1.4'
 Vgc_vigencia='26/10/2020'
 ***VERSION
 SET STEP ON
@@ -174,6 +174,7 @@ ELSE
 	Vpc_server = ALLTRIM(NB_SERVIDOR)	
 	Vgc_impresora = ALLTRIM(NB_IMPRESORA)
 	Vgc_impresora2 = ALLTRIM(NB_IMPRESORA2)
+	Vgc_localmente = ARCHIVOS_LOCALMENTE
 ENDIF 
 **** FIN DATOS CONFIGURACION
 

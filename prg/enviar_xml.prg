@@ -88,23 +88,28 @@ ELSE
 	Vlc_message= STREXTRACT(oxmlhttp.responsetext, "<message>", "</message>")	
 	SET STEP ON
 	IF (EMPTY(Vlc_faultcode) OR  Vlc_faultcode = '0') AND EMPTY(Vlc_faultstring) AND EMPTY(Vlc_message) THEN 
+		
 	    DELETE FILE ALLTRIM(ruta_cdr_local+"R-"+_nombrearchivose+".zip")
 	    STRTOFILE(STRCONV(ccontenidorptazip, 14), ruta_cdr_local+"R-"+_nombrearchivose+".zip")
 	    
-	    DELETE FILE ALLTRIM(ruta_cdr_server+"R-"+_nombrearchivose+".zip")
-	    STRTOFILE(STRCONV(ccontenidorptazip, 14), ruta_cdr_server+"R-"+_nombrearchivose+".zip")
-	     
-	    DELETE FILE ALLTRIM(ruta_rpta_server+"R-"+_nombrearchivose+".zip")
-	    STRTOFILE(STRCONV(ccontenidorptazip, 14), ruta_rpta_server+"R-"+_nombrearchivose+".zip")
+	    IF Vgc_localmente = 1 THEN 
+		    DELETE FILE ALLTRIM(ruta_cdr_server+"R-"+_nombrearchivose+".zip")
+		    STRTOFILE(STRCONV(ccontenidorptazip, 14), ruta_cdr_server+"R-"+_nombrearchivose+".zip")
+		     
+		    DELETE FILE ALLTRIM(ruta_rpta_server+"R-"+_nombrearchivose+".zip")
+		    STRTOFILE(STRCONV(ccontenidorptazip, 14), ruta_rpta_server+"R-"+_nombrearchivose+".zip")
+	    ENDIF 
 	    
-	    Vlc_ruta_CDR = ''
-	    IF FILE(ruta_cdr_local+"R-"+_nombrearchivose+".zip")	
+	    Vlc_ruta_CDR = ''	    
+		IF FILE(ruta_cdr_local+"R-"+_nombrearchivose+".zip")	
 			Vlc_ruta_CDR = ruta_cdr_local							
-		ENDIF
+		ENDIF 
 		
-		IF EMPTY(Vlc_ruta_CDR)
-			IF FILE(ruta_rpta_server+"R-"+_nombrearchivose+".zip")	
-				Vlc_ruta_CDR = ruta_rpta_server							
+		IF Vgc_localmente = 1 THEN 	
+			IF EMPTY(Vlc_ruta_CDR)
+				IF FILE(ruta_rpta_server+"R-"+_nombrearchivose+".zip")	
+					Vlc_ruta_CDR = ruta_rpta_server							
+				ENDIF 
 			ENDIF 
 		ENDIF 
 	    

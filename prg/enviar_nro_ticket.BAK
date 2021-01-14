@@ -84,16 +84,20 @@ ENDIF
 	    DELETE FILE ALLTRIM(ruta_cdr_local+"R-"+_nombrearchivose+".zip")
 	    STRTOFILE(STRCONV(ccontenidorptazip, 14), ruta_cdr_local+"R-"+_nombrearchivose+".zip")
 	    
-	    DELETE FILE ALLTRIM(ruta_cdr_server+"R-"+_nombrearchivose+".zip")
-	    STRTOFILE(STRCONV(ccontenidorptazip, 14), ruta_cdr_server+"R-"+_nombrearchivose+".zip") 
-	    
-	    DELETE FILE ALLTRIM(ruta_rpta_server+"R-"+_nombrearchivose+".zip")
-	    STRTOFILE(STRCONV(ccontenidorptazip, 14), ruta_rpta_server+"R-"+_nombrearchivose+".zip")
+	    IF Vgc_localmente = 1 THEN 	    
+		    DELETE FILE ALLTRIM(ruta_cdr_server+"R-"+_nombrearchivose+".zip")
+		    STRTOFILE(STRCONV(ccontenidorptazip, 14), ruta_cdr_server+"R-"+_nombrearchivose+".zip") 
+		    
+		    DELETE FILE ALLTRIM(ruta_rpta_server+"R-"+_nombrearchivose+".zip")
+		    STRTOFILE(STRCONV(ccontenidorptazip, 14), ruta_rpta_server+"R-"+_nombrearchivose+".zip")
+		ENDIF 
 	    
 	    Vlc_ruta_CDR = ''
-	    IF FILE(ruta_cdr_local+"R-"+_nombrearchivose+".zip")	
+	    
+		IF FILE(ruta_cdr_local+"R-"+_nombrearchivose+".zip")	
 			Vlc_ruta_CDR = ruta_cdr_local							
 		ENDIF
+		
 		
 		IF EMPTY(Vlc_ruta_CDR)
 			IF FILE(ruta_rpta_server+"R-"+_nombrearchivose+".zip")	
@@ -111,7 +115,7 @@ ENDIF
 	    	oFSO = CREATEOBJECT("Scripting.FileSystemObject")
 			oFSO.DeleteFolder(Vlc_ruta_CDR+"dummy")
 	    	*DELETE FOLDER ALLTRIM(Vlc_ruta_CDR+"dummy")
-	    	RETURN '<message>Vlc_response_CDR</message> '+'<httpstatus>'+ALLTRIM(STR(oxmlhttp.status))+'</httpstatus>'+'-'+NVL(oxmlhttp.responsetext, '')
+	    	RETURN '<message>'+Vlc_response_CDR+'</message> '+'<httpstatus>'+ALLTRIM(STR(oxmlhttp.status))+'</httpstatus>'+'-'+NVL(oxmlhttp.responsetext, '')
 	    ENDIF
 	    
 	    IF Vlc_codigo_CDR <> '0' THEN 

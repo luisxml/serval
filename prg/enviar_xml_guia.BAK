@@ -122,7 +122,7 @@ ENDIF
 	    	oFSO = CREATEOBJECT("Scripting.FileSystemObject")
 			oFSO.DeleteFolder(Vlc_ruta_CDR+"dummy")
 	    	*DELETE FOLDER ALLTRIM(Vlc_ruta_CDR+"dummy")
-	    	RETURN '<message>Vlc_response_CDR</message> '+'<httpstatus>'+ALLTRIM(STR(oxmlhttp.status))+'</httpstatus>'+'-'+NVL(oxmlhttp.responsetext, '')
+	    	RETURN '<message>'+Vlc_response_CDR+'</message> '+'<httpstatus>'+ALLTRIM(STR(oxmlhttp.status))+'</httpstatus>'+'-'+NVL(oxmlhttp.responsetext, '')
 	    ENDIF
 	    
 	    IF Vlc_codigo_CDR <> '0' THEN 
