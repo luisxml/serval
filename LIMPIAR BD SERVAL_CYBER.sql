@@ -32,14 +32,20 @@ DBCC CHECKIDENT (MOVIMIENTO_INTERNO, RESEED,0)
 ----------------------------------------------------
 DELETE FROM [dbo].[MOVIMIENTO_PRODUCTO]
 DBCC CHECKIDENT (MOVIMIENTO_PRODUCTO, RESEED,0)
+---------------------------------------------------
 DELETE FROM [dbo].[INVENTARIO]
 -----------------------------------------
-DELETE FROM [dbo].[CLASIFICACION_PRODUCTO]
-DBCC CHECKIDENT (CLASIFICACION_PRODUCTO, RESEED,0)
-----------------------------------------------------
+DELETE FROM [dbo].[INVENTARIO_DIARIO]
+----------------------------------------
 DELETE FROM [dbo].[PRODUCTO]
 DBCC CHECKIDENT (PRODUCTO, RESEED,0)
------------------------------------------
+------------------------------------------
+DELETE FROM [dbo].[CLASIFICACION_PRODUCTO]
+DBCC CHECKIDENT (CLASIFICACION_PRODUCTO, RESEED,0)
+--------------------------------------------------------
+DELETE FROM [dbo].[MARCA_PRODUCTOS]
+DBCC CHECKIDENT (MARCA_PRODUCTOS, RESEED,0)
+----------------------------------------------------
 DELETE FROM [dbo].[CAJA_ADMIN]
 DBCC CHECKIDENT (CAJA_ADMIN, RESEED,0)
 -----------------------------------------
@@ -90,9 +96,6 @@ DBCC CHECKIDENT (OP_GUIA_DESPACHO, RESEED,0)
 ----------------------------------------------------
 DELETE FROM [dbo].[OP_ORDEN_SERVICIO]
 DBCC CHECKIDENT (OP_ORDEN_SERVICIO, RESEED,0)
-----------------------------------------------------
-DELETE FROM [dbo].[OP_PRODUCTO]
-DBCC CHECKIDENT (OP_PRODUCTO, RESEED,0)
 ----------------------------------------------------
 DELETE FROM [dbo].[OP_TB_CURSOS]
 DBCC CHECKIDENT (OP_TB_CURSOS, RESEED,0)
@@ -153,9 +156,18 @@ DBCC CHECKIDENT (CONDUCTORES,0)
 ----------------------------------------------------
 DELETE FROM [dbo].[CUENTAS]
 DBCC CHECKIDENT (CUENTAS,0)
-----------------------------------------------------
+---------------------------------------------------
 DELETE FROM [dbo].[CUENTAS_PROVEEDOR]
 DBCC CHECKIDENT (CUENTAS_PROVEEDOR,0)
+-----------------------------------------------
+DELETE FROM [dbo].[INFORME_TECNICO]
+DBCC CHECKIDENT (INFORME_TECNICO,0)
+-----------------------------------------------
+DELETE FROM [dbo].[ACTA_VISITA]
+DBCC CHECKIDENT (ACTA_VISITA,0)
+-------------------------------------------
+DELETE FROM [dbo].[CLIENTE_PROVEEDOR]
+DBCC CHECKIDENT (CLIENTE_PROVEEDOR,0)
 
 
 

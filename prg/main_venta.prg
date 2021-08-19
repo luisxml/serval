@@ -256,6 +256,8 @@ ENDIF
 			ELSE	
 				MESSAGEBOX("Disculpe, Error en LICENCIA, por favor comunicarse con el Soporte Tecnico del Sistema .",0+16,"Error de Licencia")
 				RETURN
+				**DO FORM INICIO_venta
+				**READ EVENTS
 			ENDIF
 		ELSE
 			SELECT NOTAS_REPORTES
@@ -311,7 +313,9 @@ ENDIF
 					READ EVENTS	
 				ELSE
 					MESSAGEBOX("Disculpe, Error en LICENCIA, por favor comunicarse con el Soporte Tecnico del Sistema .",0+16,"Error de Licencia")
-					RETURN								
+					RETURN			
+					**DO FORM INICIO_venta
+					**READ EVENTS					
 				ENDIF				
 			ENDIF 		
 		ENDIF 

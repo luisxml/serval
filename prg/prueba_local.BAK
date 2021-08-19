@@ -79,10 +79,10 @@ SET DEFAULT TO FULLPATH(lcAppDir)
 *OPEN DATABASE FULLPATH(lcAppDir+"data\SERVAL.dbc")
 Vgc_almatrab=1
 *Vgc_usuario="17823288"
-Vgc_usuario="01"
+Vgc_usuario="12345678"
 Vgc_clic =0
 Vgn_opt=1
-Vgn_tipousu=5
+Vgn_tipousu=3
 
 Vgc_fg_barra_menu =0
 
