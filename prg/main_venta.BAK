@@ -154,7 +154,7 @@ lcparDataBase =Vgc_bd
 Vcl_conex = "driver={SQL Server};"+; 
 "server=" + lcparServidor + ";"+; 
 "database="+lcparDataBase+";"+;
-" UID=serval; pwd=Cybers@c1;trusted_connection=no;" 
+" UID=sa; pwd=Sql.123;trusted_connection=no;" 
 Conex=SQLSTRINGCONNECT(Vcl_conex)
 *" UID=sa; pwd=sa123;trusted_connection=no;" 
 **ERROR CONEXION SERVER
@@ -254,10 +254,10 @@ ENDIF
 				READ EVENTS	
 				*MESSAGEBOX('listo')			
 			ELSE	
-				*MESSAGEBOX("Disculpe, Error en LICENCIA, por favor comunicarse con el Soporte Tecnico del Sistema .",0+16,"Error de Licencia")
-				*RETURN
-				DO FORM INICIO_venta
-				READ EVENTS
+				MESSAGEBOX("Disculpe, Error en LICENCIA, por favor comunicarse con el Soporte Tecnico del Sistema .",0+16,"Error de Licencia")
+				RETURN
+				**DO FORM INICIO_venta
+				**READ EVENTS
 			ENDIF
 		ELSE
 			SELECT NOTAS_REPORTES
@@ -312,10 +312,10 @@ ENDIF
 					DO FORM INICIO_venta
 					READ EVENTS	
 				ELSE
-					*MESSAGEBOX("Disculpe, Error en LICENCIA, por favor comunicarse con el Soporte Tecnico del Sistema .",0+16,"Error de Licencia")
-					*RETURN			
-					DO FORM INICIO_venta
-					READ EVENTS					
+					MESSAGEBOX("Disculpe, Error en LICENCIA, por favor comunicarse con el Soporte Tecnico del Sistema .",0+16,"Error de Licencia")
+					RETURN			
+					**DO FORM INICIO_venta
+					**READ EVENTS					
 				ENDIF				
 			ENDIF 		
 		ENDIF 
